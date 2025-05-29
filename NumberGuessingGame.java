@@ -27,7 +27,7 @@ public class NumberGuessingGame {
                                 "\nEnter your guess (1-" + MAX_NUMBER + "):",
                         "Number Guessing Game", JOptionPane.QUESTION_MESSAGE);
 
-                if (input == null) { // User pressed Cancel or closed dialog
+                if (input == null) {
                     int confirm = JOptionPane.showConfirmDialog(null,
                             "Are you sure you want to quit the game?",
                             "Confirm Quit", JOptionPane.YES_NO_OPTION);
